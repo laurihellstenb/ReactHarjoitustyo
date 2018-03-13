@@ -1,0 +1,58 @@
+body {
+  margin: 40px;
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background:  #f4f7f6;
+  color: #22302b	;
+}
+
+input[type=text]:focus {
+    background-color: lightyellow;
+}
+
+.active {
+    font-weight: bold;
+    padding-right: '8px';
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #af4cab;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.nasa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+h3 {
+    font-family: 'Krona One', sans-serif;
+}
+
